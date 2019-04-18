@@ -22,7 +22,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({ template: './src/index.html' }),
-    new CopyWebpackPlugin([{ from: 'src/static', to: 'static' }])
+    new CopyWebpackPlugin([{ from: 'src/static' }])
   ],
   devServer: {
     port: 3039,

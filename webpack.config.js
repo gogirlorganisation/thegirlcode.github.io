@@ -22,6 +22,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({ template: './src/index.html' }),
+    new HtmlWebpackPlugin({ template: './src/about.html' }),
     new CopyWebpackPlugin([{ from: 'src/static' }])
   ],
   devServer: {

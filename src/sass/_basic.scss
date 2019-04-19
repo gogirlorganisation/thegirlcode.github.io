@@ -1,0 +1,53 @@
+$pink: rgba(255, 51, 85, 0.85);
+// $pink: #fec5e5;
+
+@mixin dimigo() {
+  background: #ec008c;
+  background: -webkit-linear-gradient(to right, #ec008c, #fc6767);
+  background: linear-gradient(to right, #ec008c, #fc6767);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: Europa;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 100000;
+}
+
+.section {
+  padding: 50px;
+  &.dimigo {
+    @include dimigo;
+    color: white;
+  }
+}
+
+.video {
+  .video-container {
+    position: relative;
+    padding-top: 56.25%;
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

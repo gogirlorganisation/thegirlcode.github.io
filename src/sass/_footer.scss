@@ -1,0 +1,57 @@
+.section.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 30px;
+  font-size: 1.2rem;
+  font-weight: 300;
+
+  .container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+  }
+
+  .social {
+    width: 70%;
+    > a {
+      color: inherit;
+      border-bottom: 2px solid rgba(256, 256, 256, 0.5);
+      padding-bottom: 2px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      &:hover {
+        border-bottom: none;
+      }
+    }
+
+    .icons {
+      margin-top: 20px;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      img {
+        height: 30px;
+        width: auto;
+      }
+    }
+  }
+
+  .digital-ocean {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div {
+      text-align: center;
+    }
+    img {
+      width: 80%;
+      height: auto;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@import 'basic';
+@import 'nav';
+@import 'footer';
+
+header {
+  .quote {
+    margin: 80px 0;
+
+    .quote-content {
+      font-size: 3rem;
+      font-weight: 200;
+      margin: 20px auto;
+      width: 70%;
+      text-align: justify;
+    }
+
+    .quote-author {
+      width: 70%;
+      text-align: right;
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin: 0 auto;
+    }
+  }
+
+  .who-what-why {
+    margin: 80px auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    > div {
+      width: 30%;
+      .heading {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+      .content {
+        margin: 20px 0;
+        text-align: justify;
+        line-height: 1.6rem;
+        font-size: 1.2rem;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+.section.timeline {
+  height: 300px;
+  width: 100%;
+  background: rgba(255, 17, 81, 0.6);
+}
+
+.section.team {
+  background: #fafafa;
+}

@@ -3,10 +3,13 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const path = require('path')
 
 module.exports = {
-  entry: './src/js/index.js',
+  mode: 'development',
+  entry: {
+    index: './src/js/index.js',
+    about: './src/js/about.js'
+  },
   output: {
-    path: path.resolve('dist'),
-    filename: 'index_bundle.js'
+    path: path.resolve('dist')
   },
   module: {
     rules: [
@@ -21,8 +24,16 @@ module.exports = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: './src/index.html' }),
-    new HtmlWebpackPlugin({ template: './src/about.html' }),
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      filename: 'index.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/about.html',
+      filename: 'about.html',
+      chunks: ['about']
+    }),
     new CopyWebpackPlugin([{ from: 'src/static' }])
   ],
   devServer: {

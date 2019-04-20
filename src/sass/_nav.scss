@@ -5,6 +5,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  &.bg-white {
+    color: black;
+    .right .links a:hover {
+      border-bottom-color: $pink;
+    }
+  }
+
   img {
     height: 5vh;
     width: auto;

@@ -36,6 +36,11 @@ body {
     @include dimigo;
     color: white;
   }
+  .header {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
 }
 
 .video {

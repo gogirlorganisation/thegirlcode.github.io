@@ -32,7 +32,7 @@ function createCard(src, name, designation, description) {
 }
 
 // Fetch data
-fetch('data/team.json')
+fetch('../data/team.json')
   .then(res => res.json())
   .then(team => {
     const cards = document.querySelector('div.cards');

@@ -1,6 +1,7 @@
 @import 'basic';
 @import 'nav';
 @import 'footer';
+@import 'timeline';
 
 header {
   .quote {
@@ -45,14 +46,12 @@ header {
   }
 }
 
-.section.timeline {
-  height: 300px;
-  width: 100%;
-  background: rgba(255, 17, 81, 0.6);
-}
-
 .section.team {
   background: #fafafa;
+  .header {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
   .cards {
     display: flex;
     max-width: 1200px;
@@ -98,8 +97,6 @@ header {
           font-size: 1.1rem;
           color: #bbb;
           margin-bottom: 20px;
-        }
-        .description {
         }
       }
     }

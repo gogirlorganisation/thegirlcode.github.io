@@ -1,6 +1,9 @@
 import '../sass/about.scss';
 
 function createCard(src, name, designation, description) {
+  // Filter src
+  src = src.match(/https/g) ? src : `../${src}`;
+
   const card = document.createElement('div');
   card.className = 'card';
 
@@ -39,12 +42,7 @@ fetch('../data/team.json')
     cards.innerHTML = '';
     for (let member of team) {
       cards.appendChild(
-        createCard(
-          `../${member.img}`,
-          member.name,
-          member.designation,
-          member.desc
-        )
+        createCard(member.img, member.name, member.designation, member.desc)
       );
     }
   })

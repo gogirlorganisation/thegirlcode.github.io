@@ -35,12 +35,16 @@ function createCard(src, name, designation, description) {
 fetch('data/team.json')
   .then(res => res.json())
   .then(team => {
-    console.log(team);
     const cards = document.querySelector('div.cards');
     cards.innerHTML = '';
     for (let member of team) {
       cards.appendChild(
-        createCard(member.img, member.name, member.designation, member.desc)
+        createCard(
+          `../${member.img}`,
+          member.name,
+          member.designation,
+          member.desc
+        )
       );
     }
   })

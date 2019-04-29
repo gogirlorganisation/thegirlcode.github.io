@@ -1,6 +1,6 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const CopyWebpackPlugin = require('copy-webpack-plugin')
-const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const path = require('path');
 
 module.exports = {
   mode: 'development',
@@ -31,7 +31,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: './src/about.html',
-      filename: 'about.html',
+      filename: 'about/index.html',
       chunks: ['about']
     }),
     new CopyWebpackPlugin([{ from: 'src/static' }])
@@ -41,4 +41,4 @@ module.exports = {
     contentBase: 'src/static',
     publicPath: '/'
   }
-}
+};

@@ -39,8 +39,11 @@ header {
         margin: 20px 0;
         text-align: justify;
         line-height: 1.6rem;
-        font-size: 1.2rem;
         font-weight: 300;
+      }
+      .content,
+      .content strong {
+        font-size: 1.2rem;
       }
     }
   }

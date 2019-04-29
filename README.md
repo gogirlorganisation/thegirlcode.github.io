@@ -10,4 +10,4 @@
 
 ## Notes
 
-- [Here's][https://jameshfisher.com/2017/08/30/how-do-i-make-a-full-width-iframe/] where I got the hack for maintaining the aspect ratio for the Youtube iframes.
+- [Here's](https://jameshfisher.com/2017/08/30/how-do-i-make-a-full-width-iframe/) where I got the hack for maintaining the aspect ratio for the Youtube iframes.

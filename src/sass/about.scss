@@ -32,8 +32,13 @@ header {
     > div {
       width: 30%;
       .heading {
-        font-size: 1.5rem;
-        text-align: center;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        span {
+          font-size: 1.5rem;
+          border-bottom: 2px solid $pink;
+        }
       }
       .content {
         margin: 20px 0;

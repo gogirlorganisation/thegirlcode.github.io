@@ -1,4 +1,5 @@
 import '../sass/about.scss';
+import team from '../static/data/team.json';
 
 function createCard(src, name, designation, description) {
   // Filter src
@@ -34,16 +35,10 @@ function createCard(src, name, designation, description) {
   return card;
 }
 
-// Fetch data
-fetch('../data/team.json')
-  .then(res => res.json())
-  .then(team => {
-    const cards = document.querySelector('div.cards');
-    cards.innerHTML = '';
-    for (let member of team) {
-      cards.appendChild(
-        createCard(member.img, member.name, member.designation, member.desc)
-      );
-    }
-  })
-  .catch(console.error);
+const cards = document.querySelector('div.cards');
+cards.innerHTML = '';
+for (let member of team) {
+  cards.appendChild(
+    createCard(member.img, member.name, member.designation, member.desc)
+  );
+}

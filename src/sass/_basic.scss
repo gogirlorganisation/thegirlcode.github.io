@@ -15,7 +15,7 @@ body {
   padding: 0;
 }
 
-* {
+*, *:before, *:after {
   font-family: Europa;
   font-size: 1rem;
   box-sizing: border-box;

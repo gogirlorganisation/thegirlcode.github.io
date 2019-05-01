@@ -1,4 +1,5 @@
 import '../sass/about.scss';
+import './nav';
 import team from '../static/data/team.json';
 
 function createCard(src, name, designation, description) {

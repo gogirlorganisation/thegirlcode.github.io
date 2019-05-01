@@ -2,55 +2,55 @@
   {
     "name": "Japnit K. Ahuja",
     "designation": "Co-Founder",
-    "desc": "As Co-Founder, Japnit oversees all operations and is the head of the Singapore chapter The Girl Code. She’s pursuing computing at the National Junior College, Singapore.",
+    "desc": "Japnit oversees all operations and is the head of the Singapore chapter of The Girl Code. She’s a student at the National Junior College, Singapore.",
     "img": "img/people/japnit.png"
   },
   {
     "name": "Samriddhi Agnihotri",
     "designation": "Co-Founder",
-    "desc": "As Co-Founder, Samriddhi oversees all operations and is the head of the Indian chapter of The Girl Code. She’s a student of The Mother’s International School, India.",
+    "desc": "Samriddhi oversees all operations and is the head of the Indian chapter of The Girl Code.",
     "img": "img/people/sam.jpeg"
   },
   {
     "name": "Naman Sood",
     "designation": "Web Developer",
-    "desc": "As a web developer, Naman is in charge of front-end and back-end components of the website. He helped create the platform used by The Girl Code and manages the database. He is a student of The Delhi Public School Vasant Kunj, India.",
+    "desc": "Naman is in charge of the front-end and back-end components of the website. He is a student of The Delhi Public School Vasant Kunj, India.",
     "img": "img/people/naman.jpeg"
   },
   {
     "name": "Tishya Doraiswamy",
     "designation": "Content Strategist",
-    "desc": "Tishya Doraiswamy creates all of the written content for our organisation, including articles for publications, curating information for our website and working on the Instagram page and blog. She is a student of The Shri Ram School,                India.",
+    "desc": "Tishya creates written content for the organisation, including articles for publications, curating information for our website, and working on the medium blog. She is a student of The Shri Ram School, India.",
     "img": "img/people/tishya.jpeg"
   },
   {
     "name": "Vanaj Moorthy",
     "designation": "Designer",
-    "desc": "As a designer, Vanaj looks after the design of the website, the video editing, the illustrations and animation. He is a student of The Shri Ram School, India.",
+    "desc": "Vanaj looks after the design components of the website including,illustrations and animations. He is a student of The Shri Ram School, India.",
     "img": "img/people/vanaj.jpg"
   },
   {
     "name": "Srijon Sinha",
     "designation": "Designer",
-    "desc": "As a designer, Srijon looks after animations, illustrations, videos, and editing. He is a student of The Shri Ram School, India.",
+    "desc": "Srijon looks after animations, illustrations, videos, and editing. He is a student of The Shri Ram School, India.",
     "img": "img/people/josh.jpg"
   },
   {
     "name": "Sidhant Bhavnani",
     "designation": "Director of Curriculum",
-    "desc": "Sidhant looks after the design, development and implementation of the curriculum. He is a student of The Mother's International School,                India.",
+    "desc": "Sidhant looks after the design, development and implementation of the curriculum.",
     "img": "https://avatars2.githubusercontent.com/u/8233952?s=460&v=4"
   },
   {
     "name": "Parth Sharma",
     "designation": "Content Strategist",
-    "desc": "Parth handles the day-to-day of the Twitter, as well as maintaining the website. He is a student of The Shri Ram School, India.",
+    "desc": "Parth handles Twitter, and maintains the website. He is a student of The Shri Ram School, India.",
     "img": "img/people/parth.jpg"
   },
   {
     "name": "Dhimant Ananmay",
     "designation": "Content Strategist",
-    "desc": "Dhimant has worked on developing the curriculum and handles social media. He is a student of The Shri Ram School, India.",
+    "desc": "Dhimant works  the curriculum and handles social media. He is a student of The Shri Ram School, India.",
     "img": "img/people/dhimant.jpg"
   }
 ]

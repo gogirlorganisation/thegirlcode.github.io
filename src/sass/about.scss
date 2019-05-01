@@ -112,6 +112,7 @@ header {
 }
 
 .section.chapters {
+  background: #fafafa;
   p {
     max-width: 800px;
     width: 95%;
@@ -138,10 +139,19 @@ header {
       justify-content: space-around;
 
       .member {
+        padding: 20px;
+        background: #fff;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.06);
+        border-radius: 20px;
         width: 250px;
         display: flex;
         align-items: center;
         flex-direction: column;
+        transition: all 250ms ease;
+        cursor: pointer;
+        &:hover {
+          transform: translateY(-15px);
+        }
 
         img {
           height: 200px;

@@ -54,4 +54,26 @@
       width: auto;
     }
   }
+
+  @media(max-width: 768px) {
+    .container {
+      width: 100%;
+      max-width: 400px;
+      flex-wrap: wrap;
+
+      .social {
+        width: 100%;
+        text-align: center;
+
+        .icons {
+          text-align: center;
+          margin: 2rem 0 1.5rem;
+        }
+      }
+
+      .digital-ocean {
+        width: 100%
+      }
+    }
+  }
 }

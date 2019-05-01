@@ -82,15 +82,10 @@ header {
   align-items: center;
   justify-content: space-around;
   > div {
-    width: 50%;
-  }
-
-  .video {
     width: 40%;
   }
 
   .text {
-    width: 40%;
     padding: 0 60px;
     h1 {
       font-size: 2.5rem;
@@ -113,13 +108,14 @@ header {
     .buttons {
       width: 100%;
       margin: 40px 0;
-      display: flex;
-      justify-content: center;
+
       .buttons-container {
-        display: inline;
+        display: flex;
+        justify-content: center;
       }
+
       .button {
-        margin: 0 20px;
+        margin: 0 10px;
         text-decoration: none;
         padding: 10px 20px;
         color: $pink;
@@ -127,7 +123,37 @@ header {
         background: white;
         border: none;
         border-radius: 5px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
       }
+    }
+  }
+
+  @media(max-width: 1024px) {
+    flex-wrap: wrap;
+
+    > div {
+      width: 100%;
+    }
+
+    .text {
+      margin-top: 3rem;
+
+      h1 {
+        font-size: 7.125vw;
+      }
+    }
+  }
+
+  @media(max-width: 640px) {
+    .text {
+      padding: 0;
     }
   }
 }
@@ -141,7 +167,7 @@ header {
 
     > div {
       height: 100%;
-      width: 300px;
+      max-width: 300px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -161,20 +187,36 @@ header {
       div {
         font-size: 1.2rem;
         font-weight: 300;
-        text-align: center;
+        text-align: justify;
+      }
+    }
+
+    @media(max-width: 1024px) {
+      flex-direction: column;
+      align-items: center;
+
+      > div {
+        margin-bottom: 2rem;
       }
     }
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   header {
     .hero {
       flex-direction: column;
       > div {
-        height: 60vh;
+        height: auto;
         width: 100%;
         padding: 30px;
+      }
+      .left span {
+        margin-top: 0;
+      }
+      .right img {
+        width: 100%;
+        height: 100%;
       }
     }
   }

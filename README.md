@@ -25,7 +25,7 @@ entry: {
 },
 ```
 
-Now add an instance of the `HtmlWebpackPlugin` to the `plugins` array in the webpack config.
+Now add an instance of `HtmlWebpackPlugin` to the `plugins` array in the webpack config.
 
 ```js
 plugins: [

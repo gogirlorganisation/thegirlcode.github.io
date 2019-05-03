@@ -21,6 +21,11 @@ module.exports = {
           'css-loader', // translates CSS into CommonJS
           'sass-loader' // compiles Sass to CSS, using Node Sass by default
         ]
+      },
+      {
+        test: /\.(png|jpg|jpeg|svg)$/,
+        include: path.join(__dirname, 'src/static/img'),
+        loader: 'url-loader'
       }
     ]
   },

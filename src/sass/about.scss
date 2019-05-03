@@ -13,6 +13,10 @@ header {
       margin: 20px auto;
       width: 70%;
       text-align: justify;
+
+      @media(max-width: 640px) {
+        font-size: 2rem;
+      }
     }
 
     .quote-author {
@@ -49,6 +53,16 @@ header {
       .content,
       .content strong {
         font-size: 1.2rem;
+      }
+    }
+
+    @media(max-width: 1024px) {
+      align-items: center;
+      flex-direction: column;
+
+      > div {
+        width: 100%;
+        max-width: 400px;
       }
     }
   }
@@ -109,6 +123,40 @@ header {
       }
     }
   }
+  @media(max-width: 1152px) {
+    padding-left: 0;
+    padding-right: 0;
+
+    .cards {
+      width: 100%;
+      justify-content: center;
+
+      .card {
+        width: calc(100% - 3rem);
+        margin: 1.5rem;
+        max-width: 600px;
+      }
+    }
+  }
+
+  @media(max-width: 640px) {
+    .cards .card {
+      flex-direction: column;
+      justify-content: center;
+
+      .img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.5rem;
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .info {
+        width: 100%;
+      }
+    }
+  }
 }
 
 .section.chapters {
@@ -137,18 +185,21 @@ header {
       width: 100%;
       display: flex;
       justify-content: space-around;
+      flex-wrap: wrap;
 
       .member {
         padding: 20px;
         background: #fff;
         box-shadow: 0 20px 20px rgba(0, 0, 0, 0.06);
         border-radius: 20px;
-        width: 250px;
+        max-width: 250px;
         display: flex;
         align-items: center;
         flex-direction: column;
         transition: all 250ms ease;
+        margin: 1rem;
         cursor: pointer;
+
         &:hover {
           transform: translateY(-15px);
         }

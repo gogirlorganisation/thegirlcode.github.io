@@ -7,7 +7,8 @@ module.exports = {
   entry: {
     index: './src/js/index.js',
     about: './src/js/about.js',
-    workshops: './src/js/workshops.js'
+    workshops: './src/js/workshops.js',
+    workshop: './src/js/workshop.js'
   },
   output: {
     path: path.resolve('dist')
@@ -44,6 +45,11 @@ module.exports = {
       template: './src/workshops.html',
       filename: 'workshops/index.html',
       chunks: ['workshops']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/workshop.html',
+      filename: 'workshop/index.html',
+      chunks: ['workshop']
     }),
     new CopyWebpackPlugin([{ from: 'src/static' }])
   ],

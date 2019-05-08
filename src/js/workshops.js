@@ -62,10 +62,3 @@ document
       w => linkWorkshop(Workshop(w), w.slug)
     )
   );
-// const pastWorkshopDivs = workshops
-//   .filter(w => w.past)
-//   .map(w => linkWorkshop(Workshop(w), w.slug));
-// const pastFragment = document.createDocumentFragment();
-// for (let pastWorkshopDiv of pastWorkshopDivs) {
-//   pastFragment.appendChild(pastWorkshopDiv);
-// }

@@ -23,6 +23,7 @@
     position: relative;
     cursor: pointer;
     overflow: hidden;
+    margin: 30px 0;
 
     > div {
       position: absolute;
@@ -42,7 +43,6 @@
     }
 
     .background {
-      background: url('../static/img/workshops/sanskriti/thumbnail.jpeg');
       background-size: cover;
       transition: transform 200ms ease;
     }
@@ -54,7 +54,7 @@
       justify-content: center;
       align-items: center;
       color: white;
-      background: rgba(0, 0, 0, 0.5);
+      background: rgba(0, 0, 0, 0.7);
       transition: background 200ms ease;
       .name {
         font-size: 2rem;
@@ -62,6 +62,8 @@
         font-weight: 500;
         margin-bottom: 10px;
         font-family: Georgia;
+        text-align: center;
+        padding: 0 20px;
       }
       .date {
         font-size: 1.3rem;

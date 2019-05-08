@@ -4,76 +4,76 @@
     "school": "Sanskriti School",
     "past": false,
     "date": "Date TBD",
-    "thumbnail": "static/img/workshops/sanskriti/thumbnail.jpeg"
+    "thumbnail": "img/workshops/sanskriti/thumbnail.jpeg"
   },
   {
     "slug": "sji-singapore",
     "school": "SJI, Singapore",
     "past": false,
     "date": "January 2019",
-    "thumbnail": "static/img/workshops/sji-singapore/thumbnail.jpeg"
+    "thumbnail": "img/workshops/sji-singapore/thumbnail.jpg"
   },
   {
     "slug": "st-george",
     "school": "St. George's School",
     "past": false,
     "date": "January 2019",
-    "thumbnail": "static/img/workshops/st-george/thumbnail.jpeg"
+    "thumbnail": "img/workshops/st-george/thumbnail.png"
   },
   {
     "slug": "indus-hyderabad",
     "school": "Indus International School, Hyderabad",
     "past": false,
     "date": "February 2019",
-    "thumbnail": "static/img/workshops/indus-hyderabad/thumbnail.png"
+    "thumbnail": "img/workshops/indus-hyderabad/thumbnail.png"
   },
   {
     "slug": "ramjas-rkp",
     "school": "Ramjas School, R.K. Puram",
     "past": false,
     "date": "February 2019",
-    "thumbnail": "static/img/workshops/ramjas-rkp/thumbnail.jpeg"
+    "thumbnail": "img/workshops/ramjas-rkp/thumbnail.jpeg"
   },
   {
     "slug": "oakridge-einstein",
     "school": "Oakridge International School, Einstein Campus",
     "past": true,
     "date": "March 2019",
-    "thumbnail": "static/img/workshops/oakridge-einstein/thumbnail.jpg"
+    "thumbnail": "img/workshops/oakridge-einstein/thumbnail.jpg"
   },
   {
     "slug": "tsrsm",
     "school": "The Shri Ram School, Moulsari",
     "past": true,
     "date": "December 2018",
-    "thumbnail": "static/img/workshops/indus-hyderabad/thumbnail.jpg"
+    "thumbnail": "img/workshops/tsrsm/thumbnail.jpg"
   },
   {
     "slug": "nus",
     "school": "National University of Singapore",
     "past": true,
     "date": "August 2018",
-    "thumbnail": "static/img/workshops/nus/thumbnail.jpg"
+    "thumbnail": "img/workshops/nus/thumbnail.jpg"
   },
   {
     "slug": "oakridge-newton",
     "school": "Oakridge International School, Newton Campus",
     "past": true,
     "date": "July 2018",
-    "thumbnail": "static/img/workshops/oakridge-newton/thumbnail.jpg"
+    "thumbnail": "img/workshops/oakridge-newton/thumbnail.jpg"
   },
   {
     "slug": "gyan-bharti",
     "school": "Gyan Bharti School",
     "past": true,
     "date": "May 2018",
-    "thumbnail": "static/img/workshops/gyan-bharti/thumbnail.jpeg"
+    "thumbnail": "img/workshops/gyan-bharti/thumbnail.jpeg"
   },
   {
     "slug": "mis",
     "school": "The Mother's International School",
     "past": true,
     "date": "January 2018",
-    "thumbnail": "static/img/workshops/mis/thumbnail.jpg"
+    "thumbnail": "img/workshops/mis/thumbnail.jpg"
   }
 ]

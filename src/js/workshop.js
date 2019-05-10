@@ -16,6 +16,8 @@ const slug = params.s;
 
 const workshop = workshops.find(w => w.slug === slug);
 
+if(!workshop) location.href = '/workshops';
+
 document.querySelector('header').style.backgroundImage = `url(/${
   workshop.heroImg
 })`;

@@ -145,10 +145,13 @@ header {
         top: 0;
         left: 0;
         opacity: 0;
+        transition: opacity 0.2s ease;
         transition-delay: 0.3s;
-        transition: 0.3s opacity ease;
         &.active {
           opacity: 1;
+          z-index: 100;
+          transition: opacity 0.3s ease;
+          transition-delay: 0s;
         }
       }
     }
@@ -163,14 +166,19 @@ header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0 5%;
+      padding: 0;
       > div {
         display: flex;
         justify-content: center;
         align-items: center;
         color: white;
         font-size: 3rem;
+        height: 100%;
+        line-height: 100%;
+        min-width: 5rem;
+        width: 7.5%;
         cursor: pointer;
+        text-shadow: 0 0 0.2rem rgba(0,0,0,0.6);
       }
     }
   }

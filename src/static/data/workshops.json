@@ -1,5 +1,26 @@
 [
   {
+    "slug": "krmggn",
+    "school": "KR Mangalam World School, Gurgaon",
+    "past": false,
+    "date": "May 2019",
+    "thumbnail": "img/workshops/krmggn/thumbnail.jpg"
+  },
+  {
+    "slug": "katong",
+    "school": "Katong Convent School (PyCon)",
+    "past": false,
+    "date": "June 2019",
+    "thumbnail": "img/workshops/katong/thumbnail.jpg"
+  },
+  {
+    "slug": "soc-ideashub",
+    "school": "Summer of Code (Ideashub)",
+    "past": false,
+    "date": "June 2019",
+    "thumbnail": "img/workshops/soc-ideashub/thumbnail.jpg"
+  },
+  {
     "slug": "sanskriti",
     "school": "Sanskriti School",
     "past": false,

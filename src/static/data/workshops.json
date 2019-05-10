@@ -63,7 +63,7 @@
     "date": "December 2018",
     "thumbnail": "img/workshops/tsrsm/thumbnail.jpg",
     "body": [
-      "<img src=\"/img/workshops/tsrsm/litas.png\" class=\"litas\" />",
+      "<div class=\"litas\"><img src=\"/img/workshops/tsrsm/litas.png\" /></div>",
       "The Girl Code held a workshop at The Shri Ram School between December 12th and 20th of 2019. During the workshop, participants were challenged and kept on their toes with various problems. It harbored an engaging and dynamic atmosphere and encouraged lots of participation.",
       "In organizing this workshop, we partnered with Litas to organize a competition for the participants to come up with ideas involving incorporating technology into our daily lives. The students came up with various wonderful ideas, keeping in mind the needs of today, social norms and various other nuanced factors when coming up with their ideas. The workshop was a big success, with many girls getting encouraged to further pursue coding."
     ],

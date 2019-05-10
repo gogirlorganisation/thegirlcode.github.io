@@ -25,6 +25,8 @@
     cursor: pointer;
     overflow: hidden;
     margin: 15px;
+    color: inherit;
+    text-decoration: none;
 
     @media(max-width: 380px) {
       margin: 5px 0;

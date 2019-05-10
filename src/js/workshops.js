@@ -4,8 +4,8 @@ import './nav';
 import workshops from '../static/data/workshops.json';
 
 function Workshop(workshop) {
-  const workshopDiv = document.createElement('div');
-  workshopDiv.className = 'workshop';
+  const workshopEl = document.createElement('a');
+  workshopEl.className = 'workshop';
 
   const backgroundDiv = document.createElement('div');
   backgroundDiv.className = 'background';
@@ -24,25 +24,22 @@ function Workshop(workshop) {
   dateDiv.innerText = workshop.date;
   overlayDiv.appendChild(dateDiv);
 
-  workshopDiv.appendChild(overlayDiv);
-  workshopDiv.appendChild(backgroundDiv);
+  workshopEl.appendChild(overlayDiv);
+  workshopEl.appendChild(backgroundDiv);
 
-  return workshopDiv;
+  return workshopEl;
 }
 
-function linkWorkshop(workshopDiv, slug) {
-  workshopDiv.addEventListener('click', e => {
-    e.preventDefault();
-    window.location.assign(`workshop?slug=${workshop.slug}`);
-  });
+function linkWorkshop(workshopEl, slug) {
+  workshopEl.setAttribute('href', `workshop?s=${slug}`);
 
-  return workshopDiv;
+  return workshopEl;
 }
 
 function createFragment(workshops, f, m) {
-  const workshopDivs = workshops.filter(f).map(m);
+  const workshopEls = workshops.filter(f).map(m);
   const fragment = document.createDocumentFragment();
-  for (let div of workshopDivs) {
+  for (let div of workshopEls) {
     fragment.appendChild(div);
   }
 

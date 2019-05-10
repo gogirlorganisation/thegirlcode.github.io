@@ -44,7 +44,9 @@ Restart your devServer if it's already running and you should see your page at `
 ## Notes
 
 - [Here's](https://jameshfisher.com/2017/08/30/how-do-i-make-a-full-width-iframe/) where I got the hack for maintaining the aspect ratio for the Youtube iframes.
+- [Querystring parser](https://gomakethings.com/getting-all-query-string-values-from-a-url-with-vanilla-js/) used in `workshop.js`.
 
 ## TODO
 
-[ ] Gyan Bharti Workshop project section
+- [ ] Gyan Bharti Workshop project section
+- [ ] Use document fragment to render team divs on about page

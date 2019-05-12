@@ -31,7 +31,7 @@ function Workshop(workshop) {
 }
 
 function linkWorkshop(workshopEl, slug) {
-  workshopEl.setAttribute('href', `workshop?s=${slug}`);
+  workshopEl.setAttribute('href', `/workshop?s=${slug}`);
 
   return workshopEl;
 }

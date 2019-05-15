@@ -154,6 +154,16 @@ nav {
             a, &:before {
               transform: translateX(0);
             }
+
+            a {
+              border-left: 4px solid transparent;
+
+              &:hover {
+                padding-bottom: 2rem;
+                border-left: 4px solid $pink;
+                border-bottom: 0;
+              }
+            }
           }
         }
       }

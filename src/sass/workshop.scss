@@ -8,7 +8,11 @@ header {
   padding: 0;
 
   nav {
-    background: rgba(256, 256, 256, 0.9);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: white;
   }
 
   .hero {

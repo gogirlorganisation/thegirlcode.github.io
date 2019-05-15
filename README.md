@@ -6,7 +6,7 @@
 2. Install dependencies with `npm install`.
 3. Start the development server with `npm start`.
 4. Open `localhost:3039`.
-5. To publish a build to the gh-pages branch, use `npm run publish`. This creates a fresh build in the dist folder and then pushes it to the master. branch.
+5. To publish a build to the gh-pages branch, use `npm run publish`. This creates a fresh build in the dist folder and then pushes it to the master branch. **DO NOT PUSH TO MASTER. THE `npm` COMMAND WILL DO THAT FOR YOU.**
 
 ## Adding a page
 
@@ -45,8 +45,3 @@ Restart your devServer if it's already running and you should see your page at `
 
 - [Here's](https://jameshfisher.com/2017/08/30/how-do-i-make-a-full-width-iframe/) where I got the hack for maintaining the aspect ratio for the Youtube iframes.
 - [Querystring parser](https://gomakethings.com/getting-all-query-string-values-from-a-url-with-vanilla-js/) used in `workshop.js`.
-
-## TODO
-
-- [ ] Gyan Bharti Workshop project section
-- [ ] Use document fragment to render team divs on about page

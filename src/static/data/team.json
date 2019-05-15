@@ -40,17 +40,5 @@
     "designation": "Director of Curriculum",
     "desc": "Sidhant looks after the design, development and implementation of the curriculum.",
     "img": "https://avatars2.githubusercontent.com/u/8233952?s=460&v=4"
-  },
-  {
-    "name": "Parth Sharma",
-    "designation": "Content Strategist",
-    "desc": "Parth handles Twitter, and maintains the website. He is a student of The Shri Ram School, India.",
-    "img": "img/people/parth.jpg"
-  },
-  {
-    "name": "Dhimant Ananmay",
-    "designation": "Content Strategist",
-    "desc": "Dhimant works  the curriculum and handles social media. He is a student of The Shri Ram School, India.",
-    "img": "img/people/dhimant.jpg"
   }
 ]

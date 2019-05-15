@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 
 module.exports = {
@@ -18,7 +19,10 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
-          'style-loader', // creates style nodes from JS strings
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {}
+          },
           'css-loader', // translates CSS into CommonJS
           'sass-loader' // compiles Sass to CSS, using Node Sass by default
         ]
@@ -51,7 +55,10 @@ module.exports = {
       filename: 'workshop/index.html',
       chunks: ['workshop']
     }),
-    new CopyWebpackPlugin([{ from: 'src/static' }])
+    new CopyWebpackPlugin([{ from: 'src/static' }]),
+    new MiniCssExtractPlugin({
+      filename: '[name].css'
+    })
   ],
   devServer: {
     port: 3039,

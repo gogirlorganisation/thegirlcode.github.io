@@ -6,6 +6,7 @@
   padding-bottom: 30px;
   font-size: 1.2rem;
   font-weight: 300;
+  line-height: 1.6;
 
   .container {
     width: 80%;
@@ -18,7 +19,6 @@
     > a {
       color: inherit;
       border-bottom: 2px solid rgba(256, 256, 256, 0.5);
-      padding-bottom: 2px;
       text-decoration: none;
       transition: all 0.3s ease;
       &:hover {

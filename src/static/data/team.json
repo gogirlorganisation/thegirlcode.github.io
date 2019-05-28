@@ -46,5 +46,11 @@
     "designation": "Web Developer",
     "desc": "Angad is in charge of the front-end and back-end components of the website. He is a student of The Delhi Public School R.K. Puram, India.",
     "img": "https://avatars3.githubusercontent.com/u/30556800?s=460&v=4"
+  },
+  {
+    "name": "Dhimant Ananmay",
+    "designation": "Content Strategist",
+    "desc": "Dhimant works the curriculum and handles social media. He is a student of The Shri Ram School, India.",
+    "img": "img/people/dhimant.jpg"
   }
 ]

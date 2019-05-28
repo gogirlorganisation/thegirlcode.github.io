@@ -9,7 +9,8 @@ module.exports = {
     index: './src/js/index.js',
     about: './src/js/about.js',
     workshops: './src/js/workshops.js',
-    workshop: './src/js/workshop.js'
+    workshop: './src/js/workshop.js',
+    error: './src/js/error.js'
   },
   output: {
     path: path.resolve('dist')
@@ -54,6 +55,11 @@ module.exports = {
       template: './src/workshop.html',
       filename: 'workshop/index.html',
       chunks: ['workshop']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/error.html',
+      filename: 'error/index.html',
+      chunks: ['error']
     }),
     new CopyWebpackPlugin([{ from: 'src/static' }]),
     new MiniCssExtractPlugin({

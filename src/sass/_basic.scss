@@ -7,6 +7,22 @@ $pink: rgba(255, 51, 85, 0.85);
   background: linear-gradient(to right, #ec008c, #fc6767);
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: $pink; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f93959; 
+}
+
 html,
 body {
   height: 100%;

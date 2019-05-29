@@ -10,7 +10,7 @@ module.exports = {
     about: './src/js/about.js',
     workshops: './src/js/workshops.js',
     workshop: './src/js/workshop.js',
-    error: './src/js/error.js'
+    error: './src/js/404.js'
   },
   output: {
     path: path.resolve('dist')
@@ -57,8 +57,8 @@ module.exports = {
       chunks: ['workshop']
     }),
     new HtmlWebpackPlugin({
-      template: './src/error.html',
-      filename: 'error/index.html',
+      template: './src/404.html',
+      filename: '404/index.html',
       chunks: ['error']
     }),
     new CopyWebpackPlugin([{ from: 'src/static' }]),

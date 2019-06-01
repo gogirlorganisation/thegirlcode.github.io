@@ -10,7 +10,7 @@ module.exports = {
     about: './src/js/about.js',
     workshops: './src/js/workshops.js',
     workshop: './src/js/workshop.js',
-    error: './src/js/404.js'
+    404: './src/js/404.js'
   },
   output: {
     path: path.resolve('dist')
@@ -58,8 +58,8 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: './src/404.html',
-      filename: '404/index.html',
-      chunks: ['error']
+      filename: '404.html',
+      chunks: ['404']
     }),
     new CopyWebpackPlugin([{ from: 'src/static' }]),
     new MiniCssExtractPlugin({

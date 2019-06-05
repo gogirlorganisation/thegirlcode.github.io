@@ -8,14 +8,14 @@
   },
   {
     "slug": "katong",
-    "school": "Katong Convent School (PyCon)",
+    "school": "Katong Convent School, Singapore (PyCon)",
     "past": false,
     "date": "June 2019",
     "thumbnail": "img/workshops/katong/thumbnail.jpg"
   },
   {
     "slug": "soc-ideashub",
-    "school": "Summer of Code (Ideashub)",
+    "school": "Summer of Code, Singapore (Ideashub)",
     "past": false,
     "date": "June 2019",
     "thumbnail": "img/workshops/soc-ideashub/thumbnail.jpg"

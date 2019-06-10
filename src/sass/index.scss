@@ -3,46 +3,63 @@
 @import 'footer';
 
 header {
-  @include dimigo;
+  background-image: url('/img/masthead.jpg');
+  background-size: cover;
+  background-position: center;
   color: white;
+  position: relative;
+
+  > * {
+    position: relative;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.65;
+    @include dimigo;
+  }
 
   .hero {
     height: 90vh;
     width: 100%;
     display: flex;
-    > div {
-      width: 50%;
-      padding: 0 50px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+
+    h1, p {
+      margin: 0 auto 0 5%;
     }
 
-    .left {
-      span {
-        font-weight: 600;
-        display: inline-block;
+    h1 {
+      font-size: 4rem;
+      width: 70%;
+    }
+
+    p {
+      font-size: 1.9rem;
+      line-height: 1.5;
+      width: 55%;
+      margin-top: 3rem;
+    }
+
+    @media(max-width: 640px) {
+      h1 {
+        width: 90%;
         font-size: 3rem;
-        margin-top: -100px;
-        padding-bottom: 5px;
-        border-bottom: 5px solid white;
+      }
+
+      p {
+        width: 90%;
+        font-size: 1.6rem;
       }
     }
-
-    .right {
-      img {
-        height: 60%;
-        width: auto;
-        object-fit: contain;
-      }
-    }
-  }
-}
-
-@media (max-width: 1320px) {
-  header .hero .left span {
-    border-bottom: none;
-    padding-bottom: none;
   }
 }
 
@@ -197,26 +214,6 @@ header {
 
       > div {
         margin-bottom: 2rem;
-      }
-    }
-  }
-}
-
-@media (max-width: 800px) {
-  header {
-    .hero {
-      flex-direction: column;
-      > div {
-        height: auto;
-        width: 100%;
-        padding: 30px;
-      }
-      .left span {
-        margin-top: 0;
-      }
-      .right img {
-        width: 100%;
-        height: 100%;
       }
     }
   }

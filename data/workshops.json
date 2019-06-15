@@ -1,12 +1,5 @@
 [
   {
-    "slug": "krmggn",
-    "school": "KR Mangalam World School, Gurgaon",
-    "past": false,
-    "date": "May 2019",
-    "thumbnail": "img/workshops/krmggn/thumbnail.jpg"
-  },
-  {
     "slug": "katong",
     "school": "Katong Convent School, Singapore (PyCon)",
     "past": false,
@@ -54,6 +47,51 @@
     "past": false,
     "date": "February 2019",
     "thumbnail": "img/workshops/ramjas-rkp/thumbnail.jpeg"
+  },
+  {
+    "slug": "krmggn",
+    "school": "KR Mangalam World School, Gurgaon",
+    "past": true,
+    "date": "May 2019",
+    "thumbnail": "img/workshops/krmggn/thumbnail.jpg",
+    "body": [
+      "The Girl Code held a workshop on the 21st and 22nd of May 2019 at KR Mangalam School in Gurugram. Over the course of about 8 hours spread across the two days, the 30 tenth graders were taught python using The Girl Code’s platform.",
+      "The girls began the workshop with absolutely no prior knowledge on programming, but by the end, were proficient in Python. Through the workshop, the girls had transformed from shy, diffident girls to those who were confident in themselves and their abilities."
+    ],
+    "gallery": [
+      "img/workshops/krmggn/1.jpg",
+      "img/workshops/krmggn/2.jpg",
+      "img/workshops/krmggn/3.jpg",
+      "img/workshops/krmggn/4.jpg",
+      "img/workshops/krmggn/5.jpg"
+    ],
+    "heroImg": "img/workshops/krmggn/hero.jpg",
+    "participants": 30,
+    "hours": 8,
+    "days": 2
+  },
+  {
+    "slug": "dps-rohini",
+    "school": "Delhi Public School, Rohini",
+    "past": true,
+    "date": "May 2019",
+    "thumbnail": "img/workshops/dps-rohini/thumbnail.jpg",
+    "body": [
+      "<div class=\"litas\"><img src=\"/img/workshops/tsrsm/litas.png\" /></div>",
+      "The Girl Code held a workshop on 27th and 28th May at DPS Rohini. During the 10 hours the 25 participants spent with the TGC team, they were taught how to code in python using our platform, LEARN.",
+      "In organizing this workshop, we partnered with Litas to organize a competition for the participants to come up with ideas involving incorporating technology into our daily lives. The students came up with various wonderful ideas, keeping in mind the needs of today, social norms and various other nuanced factors when coming up with their ideas. The workshop was a big success, with many girls getting encouraged to further pursue coding."
+    ],
+    "gallery": [
+      "img/workshops/dps-rohini/1.jpg",
+      "img/workshops/dps-rohini/2.jpg",
+      "img/workshops/dps-rohini/3.jpg",
+      "img/workshops/dps-rohini/4.jpg",
+      "img/workshops/dps-rohini/5.jpg"
+    ],
+    "heroImg": "img/workshops/dps-rohini/hero.jpg",
+    "participants": 25,
+    "hours": 10,
+    "days": 2
   },
   {
     "slug": "oakridge-einstein",

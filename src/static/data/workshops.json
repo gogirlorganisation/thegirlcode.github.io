@@ -1,17 +1,24 @@
-[
-  {
-    "slug": "katong",
-    "school": "Katong Convent School, Singapore (PyCon)",
-    "past": false,
-    "date": "June 2019",
-    "thumbnail": "img/workshops/katong/thumbnail.jpg"
-  },
+[  
   {
     "slug": "soc-ideashub",
     "school": "Summer of Code, Singapore (Ideashub)",
-    "past": false,
+    "past": true,
     "date": "June 2019",
-    "thumbnail": "img/workshops/soc-ideashub/thumbnail.jpg"
+    "thumbnail": "img/workshops/soc-ideashub/thumbnail.jpg",
+    "body": [
+      "The Girl Code organised the Summer of Code workshop series in June 2019.  The series comprised of three workshops, which were each two hours long, which was primarily focused on Python. It was held at Ideashub in United World College Southeast Asia, Dover in Singapore. The main objective was to teach Python to teenage girls from scratch. It was beneficial to the girls who had little to no prior knowledge in coding as this workshop served as a good platform to kickstart their interest and passion for coding. It was a meaningful and useful learning experience for the girls. This time we had a well-received response of approximately 60 attendees including mentors. We received positive feedback from those who attended the workshop which was a bonus."
+    ],
+    "gallery": [
+      "img/workshops/soc-ideashub/1.jpg",
+      "img/workshops/soc-ideashub/2.jpg",
+      "img/workshops/soc-ideashub/3.jpg",
+      "img/workshops/soc-ideashub/4.jpg",
+      "img/workshops/soc-ideashub/5.jpg"
+    ],
+    "heroImg": "img/workshops/soc-ideashub/hero.jpg",
+    "participants": 60,
+    "hours": 6,
+    "days": 3
   },
   {
     "slug": "sanskriti",
@@ -47,6 +54,28 @@
     "past": false,
     "date": "February 2019",
     "thumbnail": "img/workshops/ramjas-rkp/thumbnail.jpeg"
+  },
+  {
+    "slug": "katong",
+    "school": "Katong Convent School, Singapore (PyCon)",
+    "past": true,
+    "date": "June 2019",
+    "thumbnail": "img/workshops/katong/thumbnail.jpg",
+    "body": [
+      "The Girl Code held a workshop at CHIJ Katong Convent on the (date) June 2019. During the workshop, participants were challenged and kept on their toes with various problems. It harboured an engaging and dynamic atmosphere and encouraged lots of participation.",
+      "This workshop was part ​PyCon SG 2019 Young Coders' Workshops for student​s, i​n collaboration​ with ​BuildingBloCS ‘19. ​Targeted at a younger audience aged 18 and below, the workshop aims to enthuse the young about the joy of experiential and hands-on learning through Python coding, i​nspiring and encouraging JC and secondary students to continue coding. This is aligned with Singapore’s goal of becoming a ‘Smart Nation’, bringing together JC and secondary school students to build an infocomm-empowered future for a better world."
+    ],
+    "gallery": [
+      "img/workshops/katong/1.jpg",
+      "img/workshops/katong/2.jpg",
+      "img/workshops/katong/3.jpg",
+      "img/workshops/katong/4.jpg",
+      "img/workshops/katong/5.jpg"
+    ],
+    "heroImg": "img/workshops/katong/hero.jpg",
+    "participants": 30,
+    "hours": 3,
+    "days": 1
   },
   {
     "slug": "krmggn",

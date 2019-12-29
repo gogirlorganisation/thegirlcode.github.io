@@ -1,7 +1,7 @@
 [
   {
     "name": "Japnit K. Ahuja",
-    "designation": "Co-Founder",
+    "designation": "Co-Founder, Director",
     "desc": "Japnit oversees all operations and is the head of the Singapore chapter of The Girl Code. She’s a student at the National Junior College, Singapore.",
     "img": "img/people/japnit.png"
   },
@@ -14,7 +14,7 @@
   {
     "name": "Naman Sood",
     "designation": "Web Developer",
-    "desc": "Naman is in charge of the front-end and back-end components of the website. He is a student of The Delhi Public School Vasant Kunj, India.",
+    "desc": "Naman is in charge of the front-end and back-end components of the website. He is a student of University of Waterloo, Canada.",
     "img": "img/people/naman.jpeg"
   },
   {
@@ -58,11 +58,5 @@
     "designation": "Content Strategist",
     "desc": "Dhimant works the curriculum and handles social media. He is a student of The Shri Ram School, India.",
     "img": "img/people/dhimant.jpg"
-  },
-  {
-    "name": "Vanshaj Vohra",
-    "designation": "Content Strategist",
-    "desc": "Vanshaj works the curriculum and handles social media. He is a student of Delhi Public School, Rohini.",
-    "img": "img/people/vanshaj.jpeg"
   }
 ]

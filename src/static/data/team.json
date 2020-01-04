@@ -3,25 +3,29 @@
     "name": "Japnit K. Ahuja",
     "designation": "Co-Founder, Director",
     "desc": "Japnit oversees all operations and is the head of the Singapore chapter of The Girl Code. She’s a student at the National Junior College, Singapore.",
-    "img": "img/people/japnit.png"
+    "img": "img/people/japnit.png",
+    "member": true
   },
   {
     "name": "Samriddhi Agnihotri",
     "designation": "Co-Founder",
     "desc": "Samriddhi oversees all operations and is the head of the Indian chapter of The Girl Code.",
-    "img": "img/people/sam.jpeg"
+    "img": "img/people/sam.jpeg",
+    "member": true
   },
   {
     "name": "Naman Sood",
     "designation": "Web Developer",
     "desc": "Naman is in charge of the front-end and back-end components of the website. He is a student of University of Waterloo, Canada.",
-    "img": "img/people/naman.jpeg"
+    "img": "img/people/naman.jpeg",
+    "member": true
   },
   {
     "name": "Tishya Doraiswamy",
     "designation": "Content Strategist",
     "desc": "Tishya creates written content for the organisation, including articles for publications, curating information for our website, and working on the medium blog. She is a student of The Shri Ram School, India.",
-    "img": "img/people/tishya.jpeg"
+    "img": "img/people/tishya.jpeg",
+    "member": true
   },
   {
     "name": "Vanaj Moorthy",
@@ -33,7 +37,8 @@
     "name": "Srijon Sinha",
     "designation": "Designer",
     "desc": "Srijon looks after animations, illustrations, videos, and editing. He is a student of The Shri Ram School, India.",
-    "img": "img/people/josh.jpg"
+    "img": "img/people/josh.jpg",
+    "member": true
   },
   {
     "name": "Sidhant Bhavnani",

@@ -1,45 +1,34 @@
-import '../sass/about.scss';
-import './nav';
-import team from '../static/data/team.json';
+import "../sass/about.scss";
+import "./nav";
+import team from "../static/data/team.json";
 
-function createCard(src, name, designation, description) {
+function createCard(src, name, designation, description, member) {
   // Filter src
   src = src.match(/https/g) ? src : `../${src}`;
 
-  const card = document.createElement('div');
-  card.className = 'card';
+  const card = document.createElement("div");
+  card.className = "card";
 
-  const imgContainer = document.createElement('div');
-  imgContainer.className = 'img';
-  const img = document.createElement('img');
-  img.src = src;
-  img.alt = name;
-  imgContainer.appendChild(img);
-  card.appendChild(imgContainer);
-
-  const infoContainer = document.createElement('div');
-  infoContainer.className = 'info';
-  const nameDiv = document.createElement('div');
-  nameDiv.className = 'name';
-  nameDiv.innerText = name;
-  infoContainer.appendChild(nameDiv);
-  const designationDiv = document.createElement('div');
-  designationDiv.className = 'designation';
-  designationDiv.innerText = designation;
-  infoContainer.appendChild(designationDiv);
-  const descriptionDiv = document.createElement('div');
-  descriptionDiv.className = 'description';
-  descriptionDiv.innerText = description;
-  infoContainer.appendChild(descriptionDiv);
-  card.appendChild(infoContainer);
+  card.innerHTML = `
+    <div class="img">
+      <img src="${src}" alt="${name}">
+    </div>
+    <div class="info">
+      <div class="name">${name}</div>
+      <div class="designation">${
+        member ? `<span class="member">Member</span> ` : ""
+      }${designation}</div>
+      <div class="description">${description}</div>
+    </div>
+  `;
 
   return card;
 }
 
-const cards = document.querySelector('div.cards');
-cards.innerHTML = '';
-for (let member of team) {
-  cards.appendChild(
-    createCard(member.img, member.name, member.designation, member.desc)
-  );
-}
+const cards = document.querySelector("div.cards");
+cards.innerHTML = "";
+cards.append(
+  ...team.map(({ img, name, designation, desc, member }) =>
+    createCard(img, name, designation, desc, member || false)
+  )
+);

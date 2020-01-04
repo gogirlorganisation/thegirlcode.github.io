@@ -93,7 +93,7 @@ nav {
       padding-bottom: 5px;
       border-bottom: 4px solid white; }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   header nav .right .links {
     position: fixed;
     top: 0;

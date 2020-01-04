@@ -387,8 +387,15 @@ header .who-what-why {
 .section.team {
   background: #fafafa; }
   .section.team .header {
-    font-size: 2.5rem;
-    margin-bottom: 30px; }
+    font-size: 2.5rem; }
+  .section.team .category {
+    width: 100%;
+    margin: 30px 0; }
+  .section.team .subheader {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold; }
   .section.team .cards {
     display: flex;
     max-width: 1200px;
@@ -427,9 +434,22 @@ header .who-what-why {
           font-weight: 600;
           font-size: 1.7rem; }
         .section.team .cards .card .info .designation {
+          display: flex;
+          align-items: center;
           font-size: 1.1rem;
           color: #bbb;
           margin-bottom: 20px; }
+          .section.team .cards .card .info .designation .pill {
+            margin-right: 10px;
+            padding: 2px 5px;
+            font-size: 0.8rem;
+            color: white;
+            border: none;
+            border-radius: 3px; }
+          .section.team .cards .card .info .designation .member {
+            background: #f8b400; }
+          .section.team .cards .card .info .designation .intern {
+            background: rgba(255, 51, 85, 0.85); }
   @media (max-width: 1152px) {
     .section.team {
       padding-left: 0;

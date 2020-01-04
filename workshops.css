@@ -275,6 +275,7 @@ nav {
       background: rgba(0, 0, 0, 0.2); }
     .workshops .workshop .background {
       background-size: cover;
+      background-position-x: center;
       transition: transform 200ms ease; }
     .workshops .workshop .overlay {
       z-index: 1000000;

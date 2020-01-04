@@ -1,4 +1,24 @@
-[  
+[
+  {
+    "slug": "asu",
+    "school": "Arizona State University",
+    "past": true,
+    "date": "January 2020",
+    "thumbnail": "img/workshops/asu/thumbnail.jpg",
+    "body": [
+      "The Girl Code’s workshop at Arizona State University was held on the 26th October 2019 in collaboration with WICS ASU. There were 25 participants in total, from high school and college. The workshop was 6 hours long and covered basic Python (from conditionals to functions and loops)"
+    ],
+    "gallery": [
+      "img/workshops/asu/1.jpeg",
+      "img/workshops/asu/2.jpeg",
+      "img/workshops/asu/3.jpeg",
+      "img/workshops/asu/4.jpeg"
+    ],
+    "heroImg": "img/workshops/asu/hero.jpeg",
+    "participants": 25,
+    "hours": 6,
+    "days": 1
+  },
   {
     "slug": "soc-ideashub",
     "school": "Summer of Code, Singapore (Ideashub)",

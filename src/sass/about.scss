@@ -1,7 +1,7 @@
-@import 'basic';
-@import 'nav';
-@import 'footer';
-@import 'timeline';
+@import "basic";
+@import "nav";
+@import "footer";
+@import "timeline";
 
 header {
   .quote {
@@ -14,7 +14,7 @@ header {
       width: 70%;
       text-align: left;
 
-      @media(max-width: 640px) {
+      @media (max-width: 640px) {
         font-size: 2rem;
       }
     }
@@ -56,7 +56,7 @@ header {
       }
     }
 
-    @media(max-width: 1024px) {
+    @media (max-width: 1024px) {
       align-items: center;
       flex-direction: column;
 
@@ -72,8 +72,20 @@ header {
   background: #fafafa;
   .header {
     font-size: 2.5rem;
-    margin-bottom: 30px;
   }
+
+  .category {
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .subheader {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+
   .cards {
     display: flex;
     max-width: 1200px;
@@ -116,14 +128,31 @@ header {
           font-size: 1.7rem;
         }
         .designation {
+          display: flex;
+          align-items: center;
           font-size: 1.1rem;
           color: #bbb;
           margin-bottom: 20px;
+
+          .pill {
+            margin-right: 10px;
+            padding: 2px 5px;
+            font-size: 0.8rem;
+            color: white;
+            border: none;
+            border-radius: 3px;
+          }
+          .member {
+            background: #f8b400;
+          }
+          .intern {
+            background: $pink;
+          }
         }
       }
     }
   }
-  @media(max-width: 1152px) {
+  @media (max-width: 1152px) {
     padding-left: 0;
     padding-right: 0;
 
@@ -139,7 +168,7 @@ header {
     }
   }
 
-  @media(max-width: 640px) {
+  @media (max-width: 640px) {
     .cards .card {
       flex-direction: column;
       justify-content: center;

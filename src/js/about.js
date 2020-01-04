@@ -16,7 +16,9 @@ function createCard(src, name, designation, description, member) {
     <div class="info">
       <div class="name">${name}</div>
       <div class="designation">${
-        member ? `<span class="member">Member</span> ` : ""
+        member
+          ? `<span class="member pill">Member</span> `
+          : `<span class="intern pill">Intern</span> `
       }${designation}</div>
       <div class="description">${description}</div>
     </div>

@@ -1,13 +1,13 @@
-import "../sass/about.scss";
-import "./nav";
-import team from "../static/data/team.json";
+import '../sass/about.scss';
+import './nav';
+import team from '../static/data/team.json';
 
 function createCard(src, name, designation, description, member) {
   // Filter src
   src = src.match(/https/g) ? src : `../${src}`;
 
-  const card = document.createElement("div");
-  card.className = "card";
+  const card = document.createElement('div');
+  card.className = 'card';
 
   card.innerHTML = `
     <div class="img">
@@ -27,8 +27,8 @@ function createCard(src, name, designation, description, member) {
   return card;
 }
 
-const cards = document.querySelector("div.cards");
-cards.innerHTML = "";
+const cards = document.querySelector('div.cards');
+cards.innerHTML = '';
 cards.append(
   ...team.map(({ img, name, designation, desc, member }) =>
     createCard(img, name, designation, desc, member || false)

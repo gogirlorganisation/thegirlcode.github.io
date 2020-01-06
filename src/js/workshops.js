@@ -50,12 +50,10 @@ document
   .querySelector('.section.upcoming .workshops')
   .appendChild(createFragment(workshops, w => !w.past, Workshop));
 
-document
-  .querySelector('.section.past .workshops')
-  .appendChild(
-    createFragment(
-      workshops,
-      w => w.past,
-      w => linkWorkshop(Workshop(w), w.slug)
-    )
-  );
+document.querySelector('.section.past .workshops').appendChild(
+  createFragment(
+    workshops,
+    w => w.past,
+    w => linkWorkshop(Workshop(w), w.slug)
+  )
+);

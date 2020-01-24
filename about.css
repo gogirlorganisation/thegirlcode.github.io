@@ -384,20 +384,24 @@ header .who-what-why {
         width: 100%;
         max-width: 400px; } }
 
-.section.team {
+.section.team,
+.section.past {
   background: #fafafa; }
-  .section.team .header {
+  .section.team .header,
+  .section.past .header {
     font-size: 2.5rem; }
-  .section.team .category {
+  .section.team .category,
+  .section.past .category {
     width: 100%;
     margin: 30px 0; }
-  .section.team .subheader {
+  .section.team .subheader,
+  .section.past .subheader {
     font-size: 1.5rem;
     margin-bottom: 15px;
     text-align: center;
     font-weight: bold; }
   .section.team .cards,
-  .section.team .past-cards {
+  .section.past .cards {
     display: flex;
     max-width: 1200px;
     width: 90%;
@@ -405,7 +409,7 @@ header .who-what-why {
     justify-content: space-between;
     margin: 0 auto; }
     .section.team .cards .card,
-    .section.team .past-cards .card {
+    .section.past .cards .card {
       margin: 30px 0;
       width: 47%;
       display: flex;
@@ -418,37 +422,37 @@ header .who-what-why {
       transition: all 250ms ease;
       cursor: pointer; }
       .section.team .cards .card:hover,
-      .section.team .past-cards .card:hover {
+      .section.past .cards .card:hover {
         transform: translateY(-15px); }
       .section.team .cards .card .img,
-      .section.team .past-cards .card .img {
+      .section.past .cards .card .img {
         width: 42%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center; }
         .section.team .cards .card .img img,
-        .section.team .past-cards .card .img img {
+        .section.past .cards .card .img img {
           width: 90%;
           height: auto;
           border: none;
           border-radius: 500px; }
       .section.team .cards .card .info,
-      .section.team .past-cards .card .info {
+      .section.past .cards .card .info {
         width: 52%; }
         .section.team .cards .card .info .name,
-        .section.team .past-cards .card .info .name {
+        .section.past .cards .card .info .name {
           font-weight: 600;
           font-size: 1.7rem; }
         .section.team .cards .card .info .designation,
-        .section.team .past-cards .card .info .designation {
+        .section.past .cards .card .info .designation {
           display: flex;
           align-items: center;
           font-size: 1.1rem;
           color: #bbb;
           margin-bottom: 20px; }
           .section.team .cards .card .info .designation .pill,
-          .section.team .past-cards .card .info .designation .pill {
+          .section.past .cards .card .info .designation .pill {
             margin-right: 10px;
             padding: 2px 5px;
             font-size: 0.8rem;
@@ -456,38 +460,49 @@ header .who-what-why {
             border: none;
             border-radius: 3px; }
           .section.team .cards .card .info .designation .member,
-          .section.team .past-cards .card .info .designation .member {
+          .section.past .cards .card .info .designation .member {
             background: #f8b400; }
           .section.team .cards .card .info .designation .intern,
-          .section.team .past-cards .card .info .designation .intern {
+          .section.past .cards .card .info .designation .intern {
             background: rgba(255, 51, 85, 0.85); }
   @media (max-width: 1152px) {
-    .section.team {
+    .section.team,
+    .section.past {
       padding-left: 0;
       padding-right: 0; }
       .section.team .cards,
-      .section.team .past-cards {
+      .section.team .past-cards,
+      .section.past .cards,
+      .section.past .past-cards {
         width: 100%;
         justify-content: center; }
         .section.team .cards .card,
-        .section.team .past-cards .card {
+        .section.team .past-cards .card,
+        .section.past .cards .card,
+        .section.past .past-cards .card {
           width: calc(100% - 3rem);
           margin: 1.5rem;
           max-width: 600px; } }
   @media (max-width: 640px) {
     .section.team .cards .card,
-    .section.team .past-cards .card {
+    .section.team .past-cards .card,
+    .section.past .cards .card,
+    .section.past .past-cards .card {
       flex-direction: column;
       justify-content: center; }
       .section.team .cards .card .img,
-      .section.team .past-cards .card .img {
+      .section.team .past-cards .card .img,
+      .section.past .cards .card .img,
+      .section.past .past-cards .card .img {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 1.5rem;
         width: 100%;
         max-width: 300px; }
       .section.team .cards .card .info,
-      .section.team .past-cards .card .info {
+      .section.team .past-cards .card .info,
+      .section.past .cards .card .info,
+      .section.past .past-cards .card .info {
         width: 100%; } }
 
 .section.chapters {

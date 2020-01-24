@@ -1,7 +1,7 @@
-@import "basic";
-@import "nav";
-@import "footer";
-@import "timeline";
+@import 'basic';
+@import 'nav';
+@import 'footer';
+@import 'timeline';
 
 header {
   .quote {
@@ -86,7 +86,8 @@ header {
     font-weight: bold;
   }
 
-  .cards {
+  .cards,
+  .past-cards {
     display: flex;
     max-width: 1200px;
     width: 90%;
@@ -156,7 +157,8 @@ header {
     padding-left: 0;
     padding-right: 0;
 
-    .cards {
+    .cards,
+    .past-cards {
       width: 100%;
       justify-content: center;
 
@@ -169,7 +171,8 @@ header {
   }
 
   @media (max-width: 640px) {
-    .cards .card {
+    .cards .card,
+    .past-cards .card {
       flex-direction: column;
       justify-content: center;
 

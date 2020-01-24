@@ -44,7 +44,8 @@
     "name": "Sidhant Bhavnani",
     "designation": "Director of Curriculum",
     "desc": "Sidhant looks after the design, development and implementation of the curriculum.",
-    "img": "https://avatars2.githubusercontent.com/u/8233952?s=460&v=4"
+    "img": "https://avatars2.githubusercontent.com/u/8233952?s=460&v=4",
+    "past": true
   },
   {
     "name": "Priyanshi Ahuja",
@@ -62,6 +63,7 @@
     "name": "Dhimant Ananmay",
     "designation": "Content Strategist",
     "desc": "Dhimant works the curriculum and handles social media. He is a student of The Shri Ram School, India.",
-    "img": "img/people/dhimant.jpg"
+    "img": "img/people/dhimant.jpg",
+    "past": true
   }
 ]

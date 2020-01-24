@@ -27,10 +27,20 @@ function createCard(src, name, designation, description, member) {
   return card;
 }
 
-const cards = document.querySelector('div.cards');
-cards.innerHTML = '';
-cards.append(
-  ...team.map(({ img, name, designation, desc, member }) =>
-    createCard(img, name, designation, desc, member || false)
-  )
+function populateCards(el, cards) {
+  el.innerHTML = '';
+  el.append(
+    ...cards.map(({ img, name, designation, desc, member }) =>
+      createCard(img, name, designation, desc, member || false)
+    )
+  );
+}
+
+populateCards(
+  document.querySelector('div.cards'),
+  team.filter(m => !m.past)
+);
+populateCards(
+  document.querySelector('div.past-cards'),
+  team.filter(m => m.past)
 );

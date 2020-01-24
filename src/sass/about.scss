@@ -68,7 +68,8 @@ header {
   }
 }
 
-.section.team {
+.section.team,
+.section.past {
   background: #fafafa;
   .header {
     font-size: 2.5rem;
@@ -86,8 +87,7 @@ header {
     font-weight: bold;
   }
 
-  .cards,
-  .past-cards {
+  .cards {
     display: flex;
     max-width: 1200px;
     width: 90%;

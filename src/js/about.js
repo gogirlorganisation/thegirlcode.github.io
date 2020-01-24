@@ -37,10 +37,10 @@ function populateCards(el, cards) {
 }
 
 populateCards(
-  document.querySelector('div.cards'),
+  document.querySelector('div.team div.cards'),
   team.filter(m => !m.past)
 );
 populateCards(
-  document.querySelector('div.past-cards'),
+  document.querySelector('div.past div.cards'),
   team.filter(m => m.past)
 );

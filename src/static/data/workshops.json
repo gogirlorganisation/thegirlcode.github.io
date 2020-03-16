@@ -283,5 +283,19 @@
     "past": false,
     "date": "May 2020",
     "thumbnail": "img/workshops/mis/thumbnail.jpg"
+  },
+{
+    "slug": "dps-2020",
+    "school": "Delhi Public School, Noida",
+    "past": false,
+    "date": "May 2020",
+    "thumbnail": "img/workshops/dps-noida/thumbnail.jpg"
+  },
+{
+    "slug": "ntu-2020",
+    "school": "Nanyang Technological University, Singapore",
+    "past": false,
+    "date": "June 2020",
+    "thumbnail": "img/workshops/nanyang-singapore/thumbnail.jpg"
   }
 ]

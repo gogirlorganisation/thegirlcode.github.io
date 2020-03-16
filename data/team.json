@@ -31,7 +31,8 @@
     "name": "Vanaj Moorthy",
     "designation": "Designer",
     "desc": "Vanaj looks after the design components of the website including,illustrations and animations. He is a student of The Shri Ram School, India.",
-    "img": "img/people/vanaj.jpg"
+    "img": "img/people/vanaj.jpg",
+    "past": true
   },
   {
     "name": "Srijon Sinha",

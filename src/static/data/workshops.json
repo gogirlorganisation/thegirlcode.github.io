@@ -276,5 +276,12 @@
       "img/workshops/mis/mis4.jpg",
       "img/workshops/mis/mis5.jpg"
     ]
+  },
+ {
+    "slug": "mis-2020",
+    "school": "The Mother's International School",
+    "past": false,
+    "date": "May 2020",
+    "thumbnail": "img/workshops/mis/thumbnail.jpg"
   }
 ]

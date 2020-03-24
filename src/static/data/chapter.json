@@ -4,11 +4,11 @@
         "members":[
             {
                 "name":"Manav Khaitan",
-                "src":"img/people/maanav.png"
+                "src":"../img/people/maanav.png"
             },
             {
                 "name":"Vindhya Banda",
-                "src":"img/people/vindhya.jpg"
+                "src":"../img/people/vindhya.jpg"
             }
         ]
     },
@@ -17,7 +17,7 @@
         "members":[
             {
                 "name":"Samriddhi Agnihotri",
-                "src":"img/people/sam.jpeg"
+                "src":"../img/people/sam.jpeg"
             }
         ]
     },
@@ -26,11 +26,11 @@
         "members":[
             {
                 "name":"Akshita Mediratta",
-                "src":"img/people/akshita.jpg"
+                "src":"../img/people/akshita.jpg"
             },
             {
                 "name":"Yun Waddy Soe",
-                "src":"img/people/yun.jpg"
+                "src":"../img/people/yun.jpg"
             }
         ]
     }

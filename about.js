@@ -127,7 +127,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 /*! exports provided: 0, 1, 2, default */
 /***/ (function(module) {
 
-eval("module.exports = JSON.parse(\"[{\\\"chapterName\\\":\\\"Hyderabad\\\",\\\"members\\\":[{\\\"name\\\":\\\"Manav Khaitan\\\",\\\"src\\\":\\\"img/people/maanav.png\\\"},{\\\"name\\\":\\\"Vindhya Banda\\\",\\\"src\\\":\\\"img/people/vindhya.jpg\\\"}]},{\\\"chapterName\\\":\\\"USA\\\",\\\"members\\\":[{\\\"name\\\":\\\"Samriddhi Agnihotri\\\",\\\"src\\\":\\\"img/people/sam.jpeg\\\"}]},{\\\"chapterName\\\":\\\"Singapore\\\",\\\"members\\\":[{\\\"name\\\":\\\"Akshita Mediratta\\\",\\\"src\\\":\\\"img/people/akshita.jpg\\\"},{\\\"name\\\":\\\"Yun Waddy Soe\\\",\\\"src\\\":\\\"img/people/yun.jpg\\\"}]}]\");\n\n//# sourceURL=webpack:///./src/static/data/chapter.json?");
+eval("module.exports = JSON.parse(\"[{\\\"chapterName\\\":\\\"Hyderabad\\\",\\\"members\\\":[{\\\"name\\\":\\\"Manav Khaitan\\\",\\\"src\\\":\\\"../img/people/maanav.png\\\"},{\\\"name\\\":\\\"Vindhya Banda\\\",\\\"src\\\":\\\"../img/people/vindhya.jpg\\\"}]},{\\\"chapterName\\\":\\\"USA\\\",\\\"members\\\":[{\\\"name\\\":\\\"Samriddhi Agnihotri\\\",\\\"src\\\":\\\"../img/people/sam.jpeg\\\"}]},{\\\"chapterName\\\":\\\"Singapore\\\",\\\"members\\\":[{\\\"name\\\":\\\"Akshita Mediratta\\\",\\\"src\\\":\\\"../img/people/akshita.jpg\\\"},{\\\"name\\\":\\\"Yun Waddy Soe\\\",\\\"src\\\":\\\"../img/people/yun.jpg\\\"}]}]\");\n\n//# sourceURL=webpack:///./src/static/data/chapter.json?");
 
 /***/ }),
 

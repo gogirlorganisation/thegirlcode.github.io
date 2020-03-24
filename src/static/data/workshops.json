@@ -48,34 +48,6 @@
     "thumbnail": "img/workshops/sanskriti/thumbnail.jpeg"
   },
   {
-    "slug": "sji-singapore",
-    "school": "SJI, Singapore",
-    "past": false,
-    "date": "January 2019",
-    "thumbnail": "img/workshops/sji-singapore/thumbnail.jpg"
-  },
-  {
-    "slug": "st-george",
-    "school": "St. George's School",
-    "past": false,
-    "date": "January 2019",
-    "thumbnail": "img/workshops/st-george/thumbnail.png"
-  },
-  {
-    "slug": "indus-hyderabad",
-    "school": "Indus International School, Hyderabad",
-    "past": false,
-    "date": "February 2019",
-    "thumbnail": "img/workshops/indus-hyderabad/thumbnail.png"
-  },
-  {
-    "slug": "ramjas-rkp",
-    "school": "Ramjas School, R.K. Puram",
-    "past": false,
-    "date": "February 2019",
-    "thumbnail": "img/workshops/ramjas-rkp/thumbnail.jpeg"
-  },
-  {
     "slug": "katong",
     "school": "Katong Convent School, Singapore (PyCon)",
     "past": true,

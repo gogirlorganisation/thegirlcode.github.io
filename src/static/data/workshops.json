@@ -41,13 +41,6 @@
     "days": 3
   },
   {
-    "slug": "sanskriti",
-    "school": "Sanskriti School",
-    "past": false,
-    "date": "Date TBD",
-    "thumbnail": "img/workshops/sanskriti/thumbnail.jpeg"
-  },
-  {
     "slug": "katong",
     "school": "Katong Convent School, Singapore (PyCon)",
     "past": true,

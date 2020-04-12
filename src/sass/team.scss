@@ -27,45 +27,6 @@ header {
       margin: 0 auto;
     }
   }
-
-  .who-what-why {
-    margin: 80px auto;
-    width: 70%;
-    display: flex;
-    justify-content: space-around;
-    > div {
-      width: 30%;
-      .heading {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        span {
-          font-size: 1.5rem;
-          border-bottom: 2px solid $pink;
-        }
-      }
-      .content {
-        margin: 20px 0;
-        text-align: justify;
-        line-height: 1.6rem;
-        font-weight: 300;
-      }
-      .content,
-      .content strong {
-        font-size: 1.2rem;
-      }
-    }
-
-    @media (max-width: 1024px) {
-      align-items: center;
-      flex-direction: column;
-
-      > div {
-        width: 100%;
-        max-width: 400px;
-      }
-    }
-  }
 }
 
 .section.team,

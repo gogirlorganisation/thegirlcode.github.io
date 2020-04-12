@@ -7,7 +7,7 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/js/index.js',
-    about: './src/js/about.js',
+    team: './src/js/team.js',
     workshops: './src/js/workshops.js',
     workshop: './src/js/workshop.js',
     404: './src/js/404.js'
@@ -42,9 +42,9 @@ module.exports = {
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
-      template: './src/about.html',
-      filename: 'about/index.html',
-      chunks: ['about']
+      template: './src/team.html',
+      filename: 'team/index.html',
+      chunks: ['team']
     }),
     new HtmlWebpackPlugin({
       template: './src/workshops.html',

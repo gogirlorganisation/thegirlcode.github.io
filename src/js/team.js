@@ -1,4 +1,4 @@
-import '../sass/about.scss';
+import '../sass/team.scss';
 import './nav';
 import team from '../static/data/team.json';
 import chapter from '../static/data/chapter.json';

@@ -58,7 +58,7 @@ function createChapCard(chapterName, members) {
   memberClass.className = 'members';
   chapCard.innerHTML = `
   <div class="name">${chapterName}</div>`;
-  // chapCard.appendChild(memberClass);
+
   for (let i in members) {
     memberClass.innerHTML += `
             <div class="member">
@@ -72,7 +72,7 @@ function createChapCard(chapterName, members) {
 }
 
 function createChapter(chapEle, chapArr) {
-  // chapEle.innerHTML = '';
+
   chapEle.innerHTML = `<div class="header">Chapters</div>
   <p>
     The Girl Code currently has chapters across the world - in Delhi,

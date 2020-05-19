@@ -15,6 +15,17 @@ header {
     color: white;
   }
 
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.65;
+    @include dimigo;
+  }
+
   .hero {
     // padding: 50px 0;
     height: 100vh;
@@ -23,17 +34,17 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #ec008c50;
-    background: -webkit-linear-gradient(
-      to right,
-      rgba(236, 0, 140, 0.9),
-      rgba(252, 103, 103, 0.9)
-    );
-    background: linear-gradient(
-      to right,
-      rgba(236, 0, 140, 0.9),
-      rgba(252, 103, 103, 0.9)
-    );
+    // background: #ec008c50;
+    // background: -webkit-linear-gradient(
+    //   to right,
+    //   rgba(236, 0, 140, 0.9),
+    //   rgba(252, 103, 103, 0.9)
+    // );
+    // background: linear-gradient(
+    //   to right,
+    //   rgba(236, 0, 140, 0.9),
+    //   rgba(252, 103, 103, 0.9)
+    // );
     color: white;
 
     .name {
@@ -278,7 +289,7 @@ div.litas {
   .middle {
     width: 33.33%;
     text-align: center;
-    background: rgba(230, 113, 132, 0.85);
+    background: rgba(235, 99, 121, 0.85);
     border-radius: 25px;    
 
   }
@@ -288,3 +299,25 @@ div.litas {
     display: table;
     clear: both;
   }
+
+  .ghost-button {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-out,
+    color 0.2s ease-out;
+  }
+
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  color: rgba(235, 99, 121, 0.85);
+  transition: background-color 0.3s ease-in,
+  color 0.3s ease-in;
+}

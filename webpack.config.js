@@ -10,6 +10,7 @@ module.exports = {
     about: './src/js/about.js',
     workshops: './src/js/workshops.js',
     workshop: './src/js/workshop.js',
+    build: './src/js/build.js',
     404: './src/js/404.js'
   },
   output: {
@@ -55,6 +56,11 @@ module.exports = {
       template: './src/workshop.html',
       filename: 'workshop/index.html',
       chunks: ['workshop']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/build.html',
+      filename: 'build/index.html',
+      chunks: ['build']
     }),
     new HtmlWebpackPlugin({
       template: './src/404.html',

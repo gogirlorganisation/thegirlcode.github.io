@@ -177,8 +177,9 @@ header {
         }
       }
 
+
       .written{
-        display: inline-block;
+        // display: inline-block;
         position: relative;
         // margin-top: 1%;
         width: 70%;
@@ -190,9 +191,11 @@ header {
         padding: 40px;
         box-shadow: 0 20px 20px rgba(0, 0, 0, 0.06);
         transition: all 250ms ease;
+        display: none;
+
         cursor: pointer;
         &:hover {
-          transform: translateY(-5px);
+          transform: translateY(-3px);
         }
         > p{
           color: black;
@@ -204,7 +207,13 @@ header {
         {
           margin-top: 10%;
         }
+
+        &.active{
+          display: inline-block !important;
+        }
       }
+
+
     }
 
     .controls {

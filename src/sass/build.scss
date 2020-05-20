@@ -21,14 +21,14 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 70%;
     opacity: 0.65;
     @include dimigo;
   }
 
   .hero {
     // padding: 50px 0;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -115,7 +115,7 @@ header {
     }
   }
 
-  @media(max-width: 950px) {
+  @media(max-width: 1200px) {
     flex-direction: column;
     align-items: center;
     padding: 1.5rem;

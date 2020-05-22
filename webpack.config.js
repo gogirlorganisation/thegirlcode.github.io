@@ -11,7 +11,6 @@ module.exports = {
     workshops: './src/js/workshops.js',
     workshop: './src/js/workshop.js',
     build: './src/js/build.js',
-    register: './src/js/register.js',
     404: './src/js/404.js'
   },
   output: {
@@ -65,7 +64,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: './src/register.html',
-      filename: 'register.html',
+      filename: 'register/index.html',
       chunks: ['register']
     }),
     new HtmlWebpackPlugin({

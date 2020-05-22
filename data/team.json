@@ -16,9 +16,9 @@
   {
     "name": "Naman Sood",
     "designation": "Web Developer",
-    "desc": "Naman is in charge of the front-end and back-end components of the website. He is a student of University of Waterloo, Canada.",
+    "desc": "Naman was in charge of the front-end and back-end components of the website. He is a student of University of Waterloo, Canada.",
     "img": "img/people/naman.jpeg",
-    "member": true
+    "past": true
   },
   {
     "name": "Tishya Doraiswamy",

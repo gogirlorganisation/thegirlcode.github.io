@@ -273,13 +273,16 @@ header {
       opacity: 0.9;
       padding: 0 3vw;
       text-align: center; }
-      @media (max-width: 480px) {
+      @media (max-width: 600px) {
         header .hero .name {
           font-size: 3rem; } }
     header .hero .date {
       font-size: 1.9rem;
       font-weight: 500;
       opacity: 0.9; }
+      @media (max-width: 600px) {
+        header .hero .date {
+          font-size: 1.2rem; } }
 
 .section.body {
   max-width: 1300px;
@@ -307,10 +310,16 @@ header {
       font-weight: 800;
       text-align: center;
       margin-bottom: 30px; }
+      @media (max-width: 600px) {
+        .section.three-col > div .n {
+          font-size: 4em; } }
     .section.three-col > div .heading {
       font-size: 2rem;
       font-weight: 300;
       text-align: center; }
+      @media (max-width: 600px) {
+        .section.three-col > div .heading {
+          font-size: 1.4em; } }
     .section.three-col > div:first-child {
       border-right: 1px solid white; }
     .section.three-col > div:last-child {
@@ -330,9 +339,17 @@ header {
         .section.three-col > div:last-child {
           border-left: 0;
           border-top: 1px solid white; } }
+  @media (max-width: 600px) {
+    .section.three-col > div {
+      width: 100%;
+      max-width: 320px;
+      padding: 1.5rem 0; } }
 
 .section {
   padding-bottom: 50px; }
+  @media (max-width: 600px) {
+    .section .header {
+      font-size: 2.4em; } }
   .section .references {
     height: 90% !important; }
   .section .gallerydiv {
@@ -370,10 +387,19 @@ header {
         .section .gallerydiv .galleryitems .written > p {
           color: black;
           font-size: 1.4em; }
+          @media (max-width: 800px) {
+            .section .gallerydiv .galleryitems .written > p {
+              font-size: 1.2em; } }
+          @media (max-width: 450px) {
+            .section .gallerydiv .galleryitems .written > p {
+              font-size: 1em; } }
         .section .gallerydiv .galleryitems .written .author {
           margin-top: 10%; }
         .section .gallerydiv .galleryitems .written.active {
           display: inline-block !important; }
+        @media (max-width: 900px) {
+          .section .gallerydiv .galleryitems .written {
+            width: 100%; } }
     .section .gallerydiv .controls {
       z-index: 100000;
       width: 100%;
@@ -453,6 +479,9 @@ div.litas {
     cursor: pointer; }
     .cards .card:hover {
       transform: translateY(-5px); }
+    @media (max-width: 600px) {
+      .cards .card {
+        padding: 10px; } }
     .cards .card .column {
       float: left;
       padding: 10px;
@@ -490,4 +519,7 @@ div.litas {
     display: block;
     margin: 0 auto;
     max-width: 40%; }
+    @media (max-width: 500px) {
+      .sponsors .sponsor {
+        max-width: 50%; } }
 

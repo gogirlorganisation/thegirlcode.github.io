@@ -34,17 +34,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // background: #ec008c50;
-    // background: -webkit-linear-gradient(
-    //   to right,
-    //   rgba(236, 0, 140, 0.9),
-    //   rgba(252, 103, 103, 0.9)
-    // );
-    // background: linear-gradient(
-    //   to right,
-    //   rgba(236, 0, 140, 0.9),
-    //   rgba(252, 103, 103, 0.9)
-    // );
     color: white;
 
     .name {
@@ -55,7 +44,7 @@ header {
       padding: 0 3vw;
       text-align: center;
 
-      @media(max-width: 480px) {
+      @media(max-width: 600px) {
         font-size: 3rem;
       }
     }
@@ -64,7 +53,14 @@ header {
       font-size: 1.9rem;
       font-weight: 500;
       opacity: 0.9;
+
+
+      @media(max-width: 600px) {
+        font-size: 1.2rem;        
+      }
+      
     }
+
   }
 }
 
@@ -100,11 +96,19 @@ header {
       font-weight: 800;
       text-align: center;
       margin-bottom: 30px;
+
+      @media(max-width: 600px) {
+        font-size: 4em;        
+      }
     }
     .heading {
       font-size: 2rem;
       font-weight: 300;
       text-align: center;
+      
+      @media(max-width: 600px) {
+        font-size: 1.4em;        
+      }
     }
 
     &:first-child {
@@ -136,11 +140,25 @@ header {
       }
     }
   }
+
+  @media(max-width: 600px) {
+    > div {
+      width: 100%;
+      max-width: 320px;
+      padding: 1.5rem 0;      
+    }
+  }
+
 }
 
 .section {
   padding-bottom: 50px;
 
+  .header{
+    @media(max-width: 600px) {
+      font-size: 2.4em;        
+    }
+  }
   .references
   {
     height: 90% !important;
@@ -151,6 +169,10 @@ header {
     position: relative;
     margin: 0 auto;
 
+    // .reviews{
+    //   @media(max-width: 900px) {
+    //   width: 100% !important;        
+    // }
     .galleryitems {
       width: 80%;
       height: 90%;
@@ -164,6 +186,9 @@ header {
         max-width: 960px; 
         max-height: 540px;
       }
+
+      
+      
 
 
       .written{
@@ -188,6 +213,14 @@ header {
         > p{
           color: black;
           font-size: 1.4em;
+
+          @media(max-width: 800px) {
+            font-size: 1.2em;        
+          }
+
+          @media(max-width: 450px) {
+            font-size: 1em;        
+          }
           
         }
 
@@ -198,6 +231,10 @@ header {
 
         &.active{
           display: inline-block !important;
+        }
+
+        @media(max-width: 900px) {
+          width:100%;        
         }
       }
 
@@ -305,6 +342,10 @@ div.litas {
       &:hover {
         transform: translateY(-5px);
       }
+
+      @media(max-width: 600px) {
+        padding: 10px;        
+      }
     
       .column {
         float: left;
@@ -367,5 +408,13 @@ div.litas {
     display: block;
     margin: 0 auto;
     max-width: 40%;
+
+    @media(max-width: 500px) {
+      max-width: 50%;        
+    }
+
+    // @media(max-width: 450px) {
+    //   max-width: 60%;        
+    // }
   }
 }

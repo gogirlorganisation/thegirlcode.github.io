@@ -486,11 +486,12 @@ div.litas {
       float: left;
       padding: 10px;
       font-size: 1.2rem; }
-    .cards .card .left, .cards .card .right {
+    .cards .card .left,
+    .cards .card .right {
       width: 50%;
       text-align: center; }
     .cards .card .row:after {
-      content: "";
+      content: '';
       display: table;
       clear: both; }
 

@@ -389,3 +389,25 @@ header {
       .section.confidence-community-curiosity .container > div {
         margin-bottom: 2rem; } }
 
+.ghost-button {
+  display: block;
+  width: 250px;
+  padding: 12px;
+  font-size: 0.75em;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out; }
+  @media (max-width: 450px) {
+    .ghost-button {
+      width: 200px; } }
+
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  color: rgba(235, 99, 121, 0.85);
+  transition: background-color 0.3s ease-in, color 0.3s ease-in; }
+

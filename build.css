@@ -467,13 +467,13 @@ div.litas {
   text-align: center;
   margin: 0 auto; }
   .cards .card {
-    margin: 30px 0;
+    margin: 10px 0;
     width: 100%;
     display: inline-block;
     background: #fff;
     border: none;
     border-radius: 20px;
-    padding: 40px;
+    padding: 20px;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.06);
     transition: all 250ms ease;
     cursor: pointer; }

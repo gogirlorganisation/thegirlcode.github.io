@@ -315,14 +315,14 @@ div.litas {
   text-align: center;
   margin: 0 auto;
   .card {
-    margin: 30px 0;
+    margin: 10px 0;
     width: 100%;
     display: inline-block;
     // justify-content: space-between;
     background: #fff;
     border: none;
     border-radius: 20px;
-    padding: 40px;
+    padding: 20px;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.06);
     transition: all 250ms ease;
     cursor: pointer;
@@ -385,18 +385,38 @@ div.litas {
 .sponsors {
   max-width: 1000px;
   margin: 0 auto;
-  // text-align: center;
-  .sponsor {
-    display: block;
-    margin: 0 auto;
-    max-width: 40%;
+  text-align: center;
+  display: flex;
 
-    @media (max-width: 500px) {
-      max-width: 50%;
+  .listing{
+
+    margin: 0 auto;
+    width: 50%;
+    // height: 50vh;
+    
+    .sponsor {
+      max-width: 60%;
+
+      // height: 50vh;
+      // margin-right: 5%;
+  
+      @media (max-width: 600px) {
+        max-width: 80%;
+      }
+      
     }
 
-    // @media(max-width: 450px) {
-    //   max-width: 60%;
-    // }
+    > p {
+      font-size: 1.4em;
+
+      @media (max-width: 600px) {
+        font-size: 1em;
+      }
+    }
   }
+  
+
+  @media(max-width: 600px) {
+      display: block;
+    }
 }

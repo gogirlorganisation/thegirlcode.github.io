@@ -42,6 +42,13 @@
     "member": true
   },
   {
+    "name": "Jaskeerat Ahuja",
+    "designation": "Content Strategist",
+    "desc": "Jaskeerat writes content for the organization's blog and website. He is a student of The Mother's International School, India.",
+    "img": "img/people/jaskeerat.jpg",
+    "member": false
+  },
+  {
     "name": "Sidhant Bhavnani",
     "designation": "Director of Curriculum",
     "desc": "Sidhant looked after the design, development and implementation of the curriculum.",
@@ -65,12 +72,6 @@
     "designation": "Social Media Handler",
     "desc": "Krishna manages the social media outreach for The Girl Code. He is a student of Delhi Technological University.",
     "img": "img/people/krishna.jpg"
-  },
-  {
-    "name": "Naman Shankhydhar",
-    "designation": "Web Developer",
-    "desc": "Naman is in charge of the front-end components of the website. He is a student of JSS Academy of Technical Education Noida, India.",
-    "img": "img/people/naman_sh.jpg"
   },
   {
     "name": "Saranyaa Kashyap",

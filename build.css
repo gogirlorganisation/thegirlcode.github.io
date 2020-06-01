@@ -522,7 +522,9 @@ div.litas {
     margin: 0 auto;
     width: 50%; }
     .sponsors .listing .sponsor {
-      max-width: 60%; }
+      max-width: 70%;
+      justify-content: center;
+      align-items: center; }
       @media (max-width: 600px) {
         .sponsors .listing .sponsor {
           max-width: 80%; } }

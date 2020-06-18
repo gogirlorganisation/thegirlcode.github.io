@@ -392,12 +392,19 @@ div.litas {
 
     margin: 0 auto;
     width: 50%;
+    // justify-content: center;
+    // align-items: center;
+    // display: block;
+    // margin: auto;
+    // display: inline;
     // height: 50vh;
     
     .sponsor {
-      max-width: 60%;
-
-      // height: 50vh;
+      max-width: 70%;
+      justify-content: center;
+      align-items: center;
+      // max-height: 180px;
+      // height: 10vh;
       // margin-right: 5%;
   
       @media (max-width: 600px) {

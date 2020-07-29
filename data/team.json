@@ -42,6 +42,13 @@
     "member": true
   },
   {
+    "name": "Angad Singh",
+    "designation": "Head of Web Dev",
+    "desc": "Angad is in charge of the front-end and back-end components of the website. He is a student of The Delhi Public School R.K. Puram, India.",
+    "img": "https://avatars3.githubusercontent.com/u/30556800?s=460&v=4",
+    "member": true
+  },
+  {
     "name": "Jaskeerat Ahuja",
     "designation": "Content Strategist",
     "desc": "Jaskeerat writes content for the organization's blog and website. He is a student of The Mother's International School, India.",
@@ -60,13 +67,6 @@
     "designation": "Content Strategist",
     "desc": "Priyanshi looks after the content for the organisation including publications, social media outreach and The Girl Code Medium. She’s a student at Delhi Public School RK Puram.",
     "img": "img/people/priyanshi.jpg"
-  },
-  {
-    "name": "Angad Singh",
-    "designation": "Head of Web Dev",
-    "desc": "Angad is in charge of the front-end and back-end components of the website. He is a student of The Delhi Public School R.K. Puram, India.",
-    "img": "https://avatars3.githubusercontent.com/u/30556800?s=460&v=4",
-    "member": true
   },
   {
     "name": "Krishna Kedia",

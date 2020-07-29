@@ -63,9 +63,10 @@
   },
   {
     "name": "Angad Singh",
-    "designation": "Web Developer",
+    "designation": "Head of Web Dev",
     "desc": "Angad is in charge of the front-end and back-end components of the website. He is a student of The Delhi Public School R.K. Puram, India.",
-    "img": "https://avatars3.githubusercontent.com/u/30556800?s=460&v=4"
+    "img": "https://avatars3.githubusercontent.com/u/30556800?s=460&v=4",
+    "member": true
   },
   {
     "name": "Krishna Kedia",
